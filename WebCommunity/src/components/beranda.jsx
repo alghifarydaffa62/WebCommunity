@@ -2,9 +2,9 @@ import '../App.css'
 import Navbar from './navbar'
 import AnimatedContent from '../AwesomeStyle/AnimatedContent/AnimatedContent'
 import { Link } from 'react-router-dom'
-import Manfaat from './benefit'
-import Overview from './overview'
-import Explore from './explore'
+import Manfaat from './HomePage/benefit'
+import Overview from './HomePage/overview'
+import Explore from './HomePage/explore'
 
 export default function Beranda() {
     return (

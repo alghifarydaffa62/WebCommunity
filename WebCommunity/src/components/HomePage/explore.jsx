@@ -1,7 +1,7 @@
-import '../App.css'
+import '../../App.css'
 import { Link } from 'react-router-dom'
-import IT from '../assets/IT.png'
-import sport from '../assets/sports.png'
+import IT from '../../assets/IT.png'
+import sport from '../../assets/sports.png'
 
 export default function Explore() {
     return(

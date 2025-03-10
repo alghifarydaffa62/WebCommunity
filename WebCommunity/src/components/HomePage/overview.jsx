@@ -1,12 +1,12 @@
-import '../App.css'
-import Stack from '../AwesomeStyle/Stack/Stack'
-import teknostack1 from '../assets/teknoOverview.jpeg'
-import teknostack2 from '../assets/teknoOverview2.jpg'
-import teknostack3 from '../assets/teknoOverview3.jpeg'
-import teknostack4 from '../assets/teknoOverview4.jpg'
-import ORoverview from '../assets/ORoverview.jpeg'
-import ORoverview2 from '../assets/ORoverview2.jpeg'
-import ORoverview3 from '../assets/ORoverview3.jpeg'
+import '../../App.css'
+import Stack from '../../AwesomeStyle/Stack/Stack'
+import teknostack1 from '../../assets/teknoOverview.jpeg'
+import teknostack2 from '../../assets/teknoOverview2.jpg'
+import teknostack3 from '../../assets/teknoOverview3.jpeg'
+import teknostack4 from '../../assets/teknoOverview4.jpg'
+import ORoverview from '../../assets/ORoverview.jpeg'
+import ORoverview2 from '../../assets/ORoverview2.jpeg'
+import ORoverview3 from '../../assets/ORoverview3.jpeg'
 
 export default function Overview() {
     const images = [
