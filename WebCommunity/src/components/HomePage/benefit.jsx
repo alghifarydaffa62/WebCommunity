@@ -1,7 +1,7 @@
-import '../App.css'
-import dukungan from '../assets/motivation (1).png'
-import ilmu from '../assets/book.png'
-import relasi from '../assets/public-relation.png'
+import '../../App.css'
+import dukungan from '../../assets/motivation (1).png'
+import ilmu from '../../assets/book.png'
+import relasi from '../../assets/public-relation.png'
 
 export default function Manfaat() {
     return(
