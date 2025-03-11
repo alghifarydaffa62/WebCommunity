@@ -4,6 +4,7 @@ import Beranda from './components/beranda'
 import Teknologi from './components/pageTekno'
 import Olahraga from './components/pageOlahraga'
 import Webdev from './components/Webdev/webdevPage'
+import OSC from './components/OSC/PageOSC'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <Route path='/KomunitasOlahraga' element={<Olahraga/>}/>
           <Route path='/KomunitasTeknologi' element={<Teknologi/>}/>
           <Route path='/Webdev' element={<Webdev/>}/>
+          <Route path='/OSC' element={<OSC/>}></Route>
         </Routes>
       </Router>
     </div>
