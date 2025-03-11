@@ -1,7 +1,8 @@
 import "../../App.css"
 import Navbar from "../navbar"
+import { Link } from "react-router-dom"
 import osc from '../../assets/OSC (1).jpg'
-import webdevDocum from "../Webdev/webdevDocum"
+import WebdevDocum from "../Webdev/webdevDocum"
 
 export default function OSC() {
     return(
@@ -32,7 +33,7 @@ export default function OSC() {
                     </button>  
                 </div>
             </div>
-            <webdevDocum/>
+            <WebdevDocum/>
         </div>
     )
 }
