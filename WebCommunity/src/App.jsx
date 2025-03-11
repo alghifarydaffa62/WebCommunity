@@ -6,8 +6,8 @@ import Olahraga from './components/pageOlahraga'
 import Webdev from './components/Webdev/webdevPage'
 import OSC from './components/OSC/PageOSC'
 
-function App() {
 
+function App() {
   return (
     <div>
       <Router>
@@ -16,7 +16,7 @@ function App() {
           <Route path='/KomunitasOlahraga' element={<Olahraga/>}/>
           <Route path='/KomunitasTeknologi' element={<Teknologi/>}/>
           <Route path='/Webdev' element={<Webdev/>}/>
-          <Route path='/OSC' element={<OSC/>}></Route>
+          <Route path='/OSC' element={<OSC/>}/> 
         </Routes>
       </Router>
     </div>
