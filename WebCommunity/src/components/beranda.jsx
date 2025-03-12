@@ -5,7 +5,6 @@ import Manfaat from './HomePage/benefit'
 import Overview from './HomePage/overview'
 import Explore from './HomePage/explore'
 import Footer from './footer'
-import FadeContent from '../AwesomeStyle/FadeContent/FadeContent'
 import AnimatedContent from '../AwesomeStyle/AnimatedContent/AnimatedContent'
 
 export default function Beranda() {
