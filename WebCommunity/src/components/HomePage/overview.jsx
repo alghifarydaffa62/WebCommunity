@@ -7,6 +7,7 @@ import teknostack4 from '../../assets/teknoOverview4.jpg'
 import ORoverview from '../../assets/ORoverview.jpeg'
 import ORoverview2 from '../../assets/ORoverview2.jpeg'
 import ORoverview3 from '../../assets/ORoverview3.jpeg'
+import FadeContent from '../../AwesomeStyle/FadeContent/FadeContent'
 
 export default function Overview() {
     const images = [
@@ -24,36 +25,39 @@ export default function Overview() {
 
     return(
         <div className='bg-[#182E66] py-[5rem] font-poppins'>
-            <div className='flex justify-center gap-[6rem]'>
-                <Stack
-                    randomRotation={true}
-                    sensitivity={180}
-                    sendToBackOnClick={false}
-                    cardDimensions={{ width: 370, height: 300 }}
-                    cardsData={images}
-                    />
-                <div>
-                    <h2 className='text-4xl font-bold text-white'>BERGABUNG &<br/>KEMBANGKAN POTENSIMU<br/>DI KOMUNITAS!</h2>
-                    <p className='text-white font-light mt-2 text-lg'>Tempat terbaik untuk mengasah keterampilan,<br/>membangun 
-                        relasi, dan berkembang bersama.</p>
+            <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
+                <div className='flex justify-center gap-[6rem]'>
+                    <Stack
+                        randomRotation={true}
+                        sensitivity={180}
+                        sendToBackOnClick={false}
+                        cardDimensions={{ width: 370, height: 300 }}
+                        cardsData={images}
+                        />
+                    <div>
+                        <h2 className='text-4xl font-bold text-white'>BERGABUNG &<br/>KEMBANGKAN POTENSIMU<br/>DI KOMUNITAS!</h2>
+                        <p className='text-white font-light mt-2 text-lg'>Tempat terbaik untuk mengasah keterampilan,<br/>membangun 
+                            relasi, dan berkembang bersama.</p>
+                    </div>
                 </div>
-            </div>
+            </FadeContent>
 
-            <div className='flex justify-center gap-[3rem] text-right mt-[6rem]'>
-                <div>
-                    <h2 className='text-4xl font-bold text-white'>BERINOVASI DI TEKNOLOGI,<br/>BERPRESTASI DI LAPANGAN</h2>
-                    <p className='text-white font-light mt-2 text-lg'>Tempat terbaik untuk mengasah keterampilan,<br/>membangun 
-                        relasi, dan berkembang bersama.</p>
+            <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
+                <div className='flex justify-center gap-[3rem] text-right mt-[6rem]'>
+                    <div>
+                        <h2 className='text-4xl font-bold text-white'>BERINOVASI DI TEKNOLOGI,<br/>BERPRESTASI DI LAPANGAN</h2>
+                        <p className='text-white font-light mt-2 text-lg'>Tempat terbaik untuk mengasah keterampilan,<br/>membangun 
+                            relasi, dan berkembang bersama.</p>
+                    </div>
+                    <Stack
+                        randomRotation={true}
+                        sensitivity={180}
+                        sendToBackOnClick={false}
+                        cardDimensions={{ width: 370, height: 300 }}
+                        cardsData={images2}
+                        />
                 </div>
-                <Stack
-                    randomRotation={true}
-                    sensitivity={180}
-                    sendToBackOnClick={false}
-                    cardDimensions={{ width: 370, height: 300 }}
-                    cardsData={images2}
-                    />
-            </div>
-            
+            </FadeContent>
         </div>
     )
 }
