@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import Manfaat from './HomePage/benefit'
 import Overview from './HomePage/overview'
 import Explore from './HomePage/explore'
+import Footer from './footer'
 
 export default function Beranda() {
     return (
@@ -65,6 +66,7 @@ export default function Beranda() {
             <Manfaat/>
             <Overview/>
             <Explore/>
+            <Footer/>
         </div>
     )
 }
