@@ -6,7 +6,6 @@ import Olahraga from './components/pageOlahraga'
 import Webdev from './components/Webdev/webdevPage'
 import OSC from './components/OSC/PageOSC'
 
-
 function App() {
   return (
     <div>
