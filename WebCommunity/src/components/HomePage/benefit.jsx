@@ -2,6 +2,7 @@ import '../../App.css'
 import dukungan from '../../assets/motivation (1).png'
 import ilmu from '../../assets/book.png'
 import relasi from '../../assets/public-relation.png'
+import pikiran from '../../assets/mindfulness.png'
 
 export default function Manfaat() {
     return(
@@ -13,25 +14,32 @@ export default function Manfaat() {
             </div>
 
             <div className='grid grid-cols-2 grid-rows-2 gap-y-[3rem] gap-x-[3rem] items-center'>
-                <div className="motivasi">
+                <div className="motivasi p-6 bg-[#174B86] text-white rounded-xl">
                     <img src={dukungan} alt="" className='w-[49px] h-[49px] p-2 bg-[#D0DFFE] rounded-md'/>
-                    <h4 className='text-[24px] font-bold text-[#174B86] mt-1'>Dukungan & Motivasi</h4>
-                    <p className='text-justify text-[13px] font-light mt-2'>Dalam komunitas, kamu tidak hanya<br/>belajar, tetapi juga 
-                        mendapatkan<br/>motivasi dari sesama anggota serta<br/> 
+                    <h4 className='text-[24px] font-bold mt-1'>Dukungan & Motivasi</h4>
+                    <p className='text-justify text-[13px] font-light mt-2 max-w-[16rem]'>Dalam komunitas, kamu tidak hanya belajar, tetapi juga 
+                        mendapatkan motivasi dari sesama anggota serta
                         lingkungan yang suportif.</p>
                 </div>  
-                <div className="wawasan">   
+                <div className="wawasan p-6">   
                     <img src={ilmu} alt="" className='w-[49px] h-[49px] p-2 bg-[#D0DFFE] rounded-md'/>
                     <h4 className='text-[24px] font-bold text-[#174B86] mt-1'>Menambah Wawasan</h4>
-                    <p className='text-justify text-[13px] font-light mt-2'>Dengan bergabung di komunitas, kamu<br/>akan terpapar 
-                        berbagai ilmu baru, baik<br/>dari diskusi dengan anggota 
-                        lain,<br/>mentoring, maupun acara komunitas.</p>
+                    <p className='text-justify text-[13px] font-light mt-2 max-w-[16rem]'>Dengan bergabung di komunitas, kamu akan terpapar 
+                        berbagai ilmu baru, baik dari diskusi dengan anggota 
+                        lain, mentoring, maupun acara komunitas.</p>
                 </div>
-                <div className="relasi">
+                <div className="relasi p-6">
                     <img src={relasi} alt="" className='w-[49px] h-[49px] p-2 bg-[#D0DFFE] rounded-md'/>
                     <h4 className='text-[24px] font-bold text-[#174B86] mt-1'>Memperluas Relasi</h4>
-                    <p className='text-justify text-[13px] font-light mt-2'>Relasi yang kuat membuka banyak<br/>peluang, mulai dari 
-                        kolaborasi proyek<br/>hingga kesempatan kerja atau<br/>magang.</p>
+                    <p className='text-justify text-[13px] font-light mt-2  max-w-[16rem]'>Relasi yang kuat membuka banyak peluang, mulai dari 
+                        kolaborasi proyek hingga kesempatan kerja atau magang.</p>
+                </div>
+                <div className="refreshing p-6 max-w-[20rem]">
+                    <img src={pikiran} alt="" className='w-[49px] h-[49px] p-2 bg-[#D0DFFE] rounded-md'/>
+                    <h4 className='text-[24px] font-bold text-[#174B86] mt-1'>Refreshing Pikiran</h4>
+                    <p className='text-justify text-[13px] font-light mt-2'>Komunitas bisa menjadi tempat 
+                        untuk merefreshkan pikiran setelah jam mata kuliah 
+                        yang padat dan materi yang jenuh</p>
                 </div>
             </div>
         </div>
