@@ -1,11 +1,11 @@
 import '../App.css'
 import Navbar from './navbar'
-import AnimatedContent from '../AwesomeStyle/AnimatedContent/AnimatedContent'
 import { Link } from 'react-router-dom'
 import Manfaat from './HomePage/benefit'
 import Overview from './HomePage/overview'
 import Explore from './HomePage/explore'
 import Footer from './footer'
+import AnimatedContent from '../AwesomeStyle/AnimatedContent/AnimatedContent'
 
 export default function Beranda() {
     return (
@@ -19,7 +19,7 @@ export default function Beranda() {
                     config={{ tension: 80, friction: 20 }}
                     initialOpacity={0.2}
                     animateOpacity
-                    scale={1.1}
+                    scale={1}
                     threshold={0.2}
                     >
                     <div>
