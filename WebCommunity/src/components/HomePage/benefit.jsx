@@ -9,10 +9,10 @@ export default function Manfaat() {
     return(
         <div className='flex justify-evenly items-center font-poppins mb-[8rem]'>
             <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
-                <div>
-                    <h2 className='text-4xl font-semibold text-[#174B86]'>BEBERAPA MANFAAT<br/>YANG AKAN KAMU<br/>DAPATKAN</h2>
-                    <p className='text-[15px] font-light mt-4'>Dengan bergabung di komunitas, kamu<br/>akan mendapatkan banyak manfaat.<br/> 
-                        komunitas yang ada akan membantu<br/>dirimu berkembang lebih baik</p>
+                <div className='max-w-sm'>
+                    <h2 className='text-4xl font-semibold text-[#174B86]'>Beberapa manfaat yang akan kamu dapatkan</h2>
+                    <p className='text-sm text-justify max-w-xs font-light mt-4'>Dengan bergabung di komunitas, kamu akan mendapatkan banyak manfaat.<br/> 
+                        komunitas yang ada akan membantu dirimu berkembang lebih baik</p>
                 </div>
             </FadeContent>
 

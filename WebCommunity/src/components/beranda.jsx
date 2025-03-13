@@ -11,7 +11,7 @@ export default function Beranda() {
     return (
         <div>
             <Navbar/>
-            <div className='h-[90vh] flex flex-col justify-center items-center text-center'>
+            <div className='h-[100vh] flex flex-col justify-center items-center text-center'>
                 <AnimatedContent
                     distance={50}
                     direction="vertical"

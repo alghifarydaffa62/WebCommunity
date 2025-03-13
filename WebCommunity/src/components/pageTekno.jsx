@@ -21,7 +21,7 @@ export default function Teknologi() {
                     scale={0.8} 
                     threshold={0.2}
                     >
-                    <div className='flex justify-center items-center gap-[5rem] font-poppins h-[90vh]'>
+                    <div className='flex justify-center items-center gap-[5rem] font-poppins h-[100vh]'>
                         <div>   
                             <h1 className='text-5xl font-poppins text-[#174B86] font-bold'>Komunitas Teknologi</h1>
                             <p className='max-w-md text-justify font-light text-sm mt-3'>Wadah bagi mahasiswa yang ingin mengeksplorasi dan 

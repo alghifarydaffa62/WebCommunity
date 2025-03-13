@@ -13,14 +13,14 @@ export default function OSC() {
             <Navbar/>
 
             <div>
-                <div className='mx-[10rem] mt-14'>
+                <div className='mx-[10rem] mt-28'>
                     <Link to="/KomunitasTeknologi" className="font-poppins font-semibold underline text-blue-900">
                         Kembali ke halaman komunitas
                     </Link>
                 </div>
 
                 <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
-                    <div className="flex justify-center gap-16 items-center mt-18">
+                    <div className="flex justify-center gap-16 items-center mt-9">
                         <img src={osc} alt="Web Developer" className="w-[22rem] h-[22rem] object-contain" />
                 
                         <div>
