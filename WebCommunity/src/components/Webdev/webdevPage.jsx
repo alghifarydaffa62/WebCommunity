@@ -11,8 +11,14 @@ export default function Webdev() {
     return(
         <div>
             <Navbar/>
-
+            
             <div>
+                <div className='mx-[10rem] mt-14'>
+                    <Link to="/KomunitasTeknologi" className="font-poppins font-semibold underline text-blue-900">
+                        Kembali ke halaman komunitas
+                    </Link>
+                </div>
+                
                 <div className="flex justify-center gap-16 items-center mt-18">
                     <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
                         <div>
