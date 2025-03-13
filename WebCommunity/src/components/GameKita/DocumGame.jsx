@@ -10,12 +10,11 @@ export default function DocumGame() {
         <div className='bg-[#172036] py-12 font-poppins mt-18'>
             <h1 className='text-3xl font-bold text-white text-center mb-6'>Dokumentasi Kegiatan</h1>
             <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
-                <div className='grid grid-cols-2 gap-6 place-items-center mx-40 '>
-                    <img src={gamekita1} alt="" className='w-[30rem] h-[20rem] object-cover rounded-lg'/>
-                    <img src={gamekita2} alt="" className='w-[30rem] h-[20rem] object-cover rounded-lg'/>
-                    <img src={gamekita3} alt="" className='w-[30rem] h-[20rem] object-cover rounded-lg'/>
-                    <img src={gamekita4} alt="" className='w-[30rem] h-[20rem] object-cover rounded-lg'/>
-                    
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-6 place-items-center px-8 md:mx-40'>
+                    {[gamekita1, gamekita2, gamekita3, gamekita4].map((imgSrc, index) => (
+                        <img key={index} src={imgSrc} alt={`Dokumentasi ${index + 1}`} 
+                            className='w-full md:w-[30rem] h-[20rem] object-cover rounded-lg'/>
+                    ))}
                 </div>
             </FadeContent>
         </div>

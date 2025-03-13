@@ -1,11 +1,10 @@
 import '../App.css'
 import { Link } from 'react-router-dom'
 
-
 export default function Footer() {
     return(
-        <div className="bg-[#182E66] font-poppins text-white mt-[6rem] h-[60vh] flex flex-col justify-between">
-            <div className="flex justify-center gap-16 pt-12">
+        <div className="bg-[#182E66] font-poppins text-white mt-[6rem] min-h-[60vh] flex flex-col justify-between px-6 md:px-12">
+            <div className="flex flex-col md:flex-row justify-center gap-8 md:gap-16 pt-12 text-center md:text-left">
                 <div className="max-w-md">
                     <h1 className="font-bold text-3xl mb-4">HimitCommunity</h1>
                     <p>
@@ -35,7 +34,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="text-center pb-6">
+            <div className="text-center pb-6 mt-8">
                 <h1 className="text-sm">Copyright &copy; 2025 | Tim #EngganMengoding</h1>
             </div>
         </div>

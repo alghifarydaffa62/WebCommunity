@@ -26,7 +26,7 @@ export default function Overview() {
     return(
         <div className='bg-[#182E66] py-[5rem] font-poppins'>
             <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
-                <div className='flex justify-center gap-[6rem]'>
+                <div className='flex flex-col lg:flex-row justify-center gap-[6rem] text-center lg:text-left'>
                     <Stack
                         randomRotation={true}
                         sensitivity={180}
@@ -35,18 +35,18 @@ export default function Overview() {
                         cardsData={images}
                         />
                     <div>
-                        <h2 className='text-4xl font-bold text-white'>BERGABUNG &<br/>KEMBANGKAN POTENSIMU<br/>DI KOMUNITAS!</h2>
-                        <p className='text-white font-light mt-2 text-lg'>Tempat terbaik untuk mengasah keterampilan,<br/>membangun 
+                        <h2 className='text-3xl lg:text-4xl font-bold text-white max-w-lg'>BERGABUNG & KEMBANGKAN POTENSIMU DI KOMUNITAS!</h2>
+                        <p className='text-white font-light mt-2 text-base lg:text-lg max-w-md'>Tempat terbaik untuk mengasah keterampilan, membangun 
                             relasi, dan berkembang bersama.</p>
                     </div>
                 </div>
             </FadeContent>
 
             <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
-                <div className='flex justify-center gap-[3rem] text-right mt-[6rem]'>
+                <div className='flex flex-col-reverse lg:flex-row justify-center gap-[3rem] text-center lg:text-right mt-[6rem]'>
                     <div>
-                        <h2 className='text-4xl font-bold text-white'>BERINOVASI DI TEKNOLOGI,<br/>BERPRESTASI DI LAPANGAN</h2>
-                        <p className='text-white font-light mt-2 text-lg'>Tempat terbaik untuk mengasah keterampilan,<br/>membangun 
+                        <h2 className='text-3xl lg:text-4xl font-bold text-white max-w-lg'>BERINOVASI DI TEKNOLOGI, BERPRESTASI DI LAPANGAN</h2>
+                        <p className='text-white font-light mt-2 text-base lg:text-lg max-w-md'>Tempat terbaik untuk mengasah keterampilan, membangun 
                             relasi, dan berkembang bersama.</p>
                     </div>
                     <Stack

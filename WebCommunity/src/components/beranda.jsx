@@ -11,7 +11,7 @@ export default function Beranda() {
     return (
         <div>
             <Navbar/>
-            <div className='h-[100vh] flex flex-col justify-center items-center text-center'>
+            <div className='h-screen flex flex-col justify-center items-center text-center px-4 md:px-8'>
                 <AnimatedContent
                     distance={50}
                     direction="vertical"
@@ -23,7 +23,7 @@ export default function Beranda() {
                     threshold={0.2}
                     >
                     <div>
-                        <h1 className='text-6xl font-poppins text-[#174B86] font-bold leading-16'>
+                        <h1 className='text-4xl md:text-6xl font-poppins text-[#174B86] font-bold leading-tight md:leading-16'>
                         Wadah Pengembangan,<br/>Kolaborasi, dan Inovasi HIMIT</h1>
                     </div>
                 </AnimatedContent>
@@ -39,11 +39,11 @@ export default function Beranda() {
                     threshold={0.2}
                     >
                     <div>
-                        <p className='font-poppins font-light text-center text-lg mt-6'>
-                            HIMIT menghadirkan berbagai komunitas untuk mendukung pengembangan<br/>keterampilan, 
-                            inovasi, dan kolaborasi mahasiswa Teknik Informatika. Temukan<br/>komunitas yang 
+                        <p className='font-poppins font-light text-center text-base md:text-lg mt-6 max-w-lg md:max-w-2xl'>
+                            HIMIT menghadirkan berbagai komunitas untuk mendukung pengembangan keterampilan, 
+                            inovasi, dan kolaborasi mahasiswa Teknik Informatika. Temukan komunitas yang 
                             sesuai dengan minatmu dan jadilah bagian dari perubahan!</p>
-                        <button className='mt-4 py-3 px-5 align-middle bg-[#1A57A7] rounded-full font-poppins text-white text-semibold'>
+                        <button className='mt-4 py-3 px-5 bg-[#1A57A7] rounded-full font-poppins text-white font-semibold text-sm md:text-base'>
                             <Link to='/'>Jelajahi Komunitas</Link>
                         </button>
                     </div>
