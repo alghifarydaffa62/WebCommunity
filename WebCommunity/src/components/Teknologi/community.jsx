@@ -4,8 +4,13 @@ import game from '../../assets/game.png'
 import linux from '../../assets/linux.png'
 import { Link } from 'react-router-dom'
 import Footer from '../footer'
+import { useEffect } from 'react'
 
 export default function Community() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
     return(
         <div>
             <div className='flex flex-wrap justify-center items-center gap-6 md:gap-[3rem] font-poppins text-white my-10 px-6'>

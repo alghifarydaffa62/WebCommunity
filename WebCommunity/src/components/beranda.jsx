@@ -43,7 +43,7 @@ export default function Beranda() {
                             HIMIT menghadirkan berbagai komunitas untuk mendukung pengembangan keterampilan, 
                             inovasi, dan kolaborasi mahasiswa Teknik Informatika. Temukan komunitas yang 
                             sesuai dengan minatmu dan jadilah bagian dari perubahan!</p>
-                        <button className='mt-4 py-3 px-5 bg-[#1A57A7] rounded-full font-poppins text-white font-semibold text-sm md:text-base'>
+                        <button className='mt-4 py-3 px-5 bg-[#1A57A7] rounded-full font-poppins text-white font-semibold text-sm md:text-base transition duration-300 ease-in-out hover:translate-y-[-4px] hover:shadow-lg'>
                             <Link to='/'>Jelajahi Komunitas</Link>
                         </button>
                     </div>

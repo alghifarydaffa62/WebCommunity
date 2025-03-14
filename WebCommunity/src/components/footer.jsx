@@ -16,20 +16,20 @@ export default function Footer() {
                 <div>
                     <h1 className="font-bold text-xl">Komunitas Teknologi</h1>
                     <ul className="mt-3 space-y-2">
-                        <li><Link to="/Webdev">Web Developer</Link></li>
-                        <li><Link to="/">GameKita</Link></li>
-                        <li><Link to="/OSC">Open Source Community</Link></li>
+                        <li><Link to="/KomunitasTeknologi/Webdev">Web Developer</Link></li>
+                        <li><Link to="/KomunitasTeknologi/GameKita">GameKita</Link></li>
+                        <li><Link to="/KomunitasTeknologi/OSC">Open Source Community</Link></li>
                     </ul>
                 </div>
 
                 <div>
                     <h1 className="font-bold text-xl">Komunitas Olahraga</h1>
                     <ul className="mt-3 space-y-2">
-                        <li><Link to="">Blue Knight</Link></li>
-                        <li><Link to="">Shuttle Blue</Link></li>
-                        <li><Link to="">Blue Ice</Link></li>
-                        <li><Link to="">I - Ball</Link></li>
-                        <li><Link to="">I - Sport</Link></li>
+                        <li><Link to="/KomunitasOlahraga/BlueKnight">Blue Knight</Link></li>
+                        <li><Link to="/KomunitasOlahraga/ShuttleBlue">Shuttle Blue</Link></li>
+                        <li><Link to="/KomunitasOlahraga/BlueIce">Blue Ice</Link></li>
+                        <li><Link to="/KomunitasOlahraga/I-Ball">I - Ball</Link></li>
+                        <li><Link to="/KomunitasOlahraga/I-Sport">I - Sport</Link></li>
                     </ul>
                 </div>
             </div>

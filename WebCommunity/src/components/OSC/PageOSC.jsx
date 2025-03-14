@@ -6,8 +6,12 @@ import DocumOSC from "./DokumOSC"
 import Footer from "../footer"
 import FadeContent from '../../AwesomeStyle/FadeContent/FadeContent'
 import AnimatedContent from '../../AwesomeStyle/AnimatedContent/AnimatedContent'
+import { useEffect } from "react"
 
 export default function OSC() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return(
         <div>
             <Navbar/>

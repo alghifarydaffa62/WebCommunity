@@ -53,7 +53,7 @@ export default function Overview() {
                         randomRotation={true}
                         sensitivity={180}
                         sendToBackOnClick={false}
-                        cardDimensions={{ width: 370, height: 300 }}
+                        cardDimensions={{ width: 340, height: 300 }}
                         cardsData={images2}
                         />
                 </div>

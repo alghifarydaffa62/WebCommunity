@@ -11,6 +11,7 @@ import BlueIce from './components/BlueIce/PageBlueIce'
 import BlueKnight from './components/BlueKnight/PageBlueKnight'
 import IBall from './components/I-Ball/PageIBall'
 import Isport from './components/I-Sport/PageISport'
+import Event from './components/Event'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/' element={<Beranda/>}/>
           <Route path='/KomunitasOlahraga' element={<Olahraga/>}/>
           <Route path='/KomunitasTeknologi' element={<Teknologi/>}/>
+          <Route path='/Event' element={<Event/>}/>
           <Route path='/KomunitasTeknologi/Webdev' element={<Webdev/>}/>
           <Route path='/KomunitasTeknologi/OSC' element={<OSC/>}/> 
           <Route path='/KomunitasTeknologi/GameKita' element={<GameKita/>}/> 

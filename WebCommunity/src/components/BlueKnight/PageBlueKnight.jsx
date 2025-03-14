@@ -6,15 +6,19 @@ import FadeContent from '../../AwesomeStyle/FadeContent/FadeContent'
 import AnimatedContent from '../../AwesomeStyle/AnimatedContent/AnimatedContent'
 import BlueKnek from '../../assets/BlueKnight.jpeg'
 import DocumBlueKnight from './DocumBlueKnight'
+import { useEffect } from 'react'
 
 export default function BlueKnight() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <div>
             <Navbar />
 
             <div>
                 <div className='px-8 md:px-[10rem] mt-28'>
-                    <Link to="/KomunitasTeknologi" className="font-poppins font-semibold underline text-blue-900">
+                    <Link to="/KomunitasOlahraga" className="font-poppins font-semibold underline text-blue-900">
                         Kembali ke halaman komunitas
                     </Link>
                 </div>

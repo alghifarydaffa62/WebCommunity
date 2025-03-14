@@ -11,7 +11,7 @@ export default function Manfaat() {
             <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
                 <div className='max-w-sm text-center md:text-left'>
                     <h2 className='text-3xl md:text-4xl font-semibold text-[#174B86]'>Beberapa manfaat yang akan kamu dapatkan</h2>
-                    <p className='text-sm md:text-base text-justify font-light mt-4 max-w-xs'>Dengan bergabung di komunitas, kamu akan mendapatkan banyak manfaat. Komunitas yang ada akan membantu dirimu berkembang lebih baik.</p>
+                    <p className='text-sm md:text-base text-justify font-light mx-3 my-4 md:mx-0 max-w-xs'>Dengan bergabung di komunitas, kamu akan mendapatkan banyak manfaat. Komunitas yang ada akan membantu dirimu berkembang lebih baik.</p>
                 </div>
             </FadeContent>
 
@@ -37,7 +37,7 @@ export default function Manfaat() {
                             <p className='text-justify text-sm font-light mt-2 max-w-[16rem]'>Relasi yang kuat membuka banyak peluang, mulai dari 
                                 kolaborasi proyek hingga kesempatan kerja atau magang.</p>
                         </div>
-                        <div className="refreshing p-6 max-w-[20rem]">
+                        <div className="refreshing p-6 max-w-[20rem] ">
                             <img src={pikiran} alt="" className='w-12 h-12 p-2 bg-[#D0DFFE] rounded-md'/>
                             <h4 className='text-lg md:text-xl font-bold text-[#174B86] mt-1'>Refreshing Pikiran</h4>
                             <p className='text-justify text-sm font-light mt-2 max-w-[16rem]'>Komunitas bisa menjadi tempat 
