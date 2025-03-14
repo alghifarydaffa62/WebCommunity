@@ -6,15 +6,19 @@ import FadeContent from '../../AwesomeStyle/FadeContent/FadeContent'
 import AnimatedContent from '../../AwesomeStyle/AnimatedContent/AnimatedContent'
 import BlueKnek from '../../assets/BlueKnight.jpeg'
 import DocumIBall from './DocumIBall'
+import { useEffect } from 'react'
 
 export default function IBall() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <div>
             <Navbar />
 
             <div>
                 <div className='px-8 md:px-[10rem] mt-28'>
-                    <Link to="/KomunitasTeknologi" className="font-poppins font-semibold underline text-blue-900">
+                    <Link to="/KomunitasOlahraga" className="font-poppins font-semibold underline text-blue-900">
                         Kembali ke halaman komunitas
                     </Link>
                 </div>
@@ -42,7 +46,7 @@ export default function IBall() {
                             <div className="space-y-3">
                                 <h3 className="text-lg font-bold text-[#174B86]">Topik Pembahasan:</h3>
                                 <div className="flex flex-wrap justify-center md:justify-start gap-3">
-                                    {["Permainan Bola Volly"].map(topic => (
+                                    {["Permainan Bola Basket"].map(topic => (
                                         <span key={topic} className="text-sm py-2 px-4 bg-[#1A57A7] rounded-full text-white">
                                             {topic}
                                         </span>

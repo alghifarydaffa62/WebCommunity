@@ -5,8 +5,12 @@ import AnimatedContent from '../../AwesomeStyle/AnimatedContent/AnimatedContent'
 import Navbar from '../navbar'
 import shuttle from '../../assets/shuttle.jpeg'
 import Footer from '../footer'
+import { useEffect } from 'react'
 
 export default function ShuttleBlue() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return(
         <div>
             <Navbar/>

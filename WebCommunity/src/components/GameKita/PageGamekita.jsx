@@ -6,8 +6,12 @@ import FadeContent from '../../AwesomeStyle/FadeContent/FadeContent'
 import AnimatedContent from '../../AwesomeStyle/AnimatedContent/AnimatedContent'
 import Gamekita from '../../assets/gamekita.jpg'
 import DocumGame from './DocumGame'
+import { useEffect } from 'react'
 
 export default function GameKita() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return(
         <div>
             <Navbar/>
@@ -22,7 +26,7 @@ export default function GameKita() {
                 <div className="flex flex-col md:flex-row justify-center gap-4 lg:gap-16 items-center mt-9 px-6">
                     <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
                         <div>
-                            <img src={Gamekita} alt="Web Developer" className="w-[22rem] h-[22rem] object-contain" />
+                            <img src={Gamekita} alt="Web Developer" className="w-[22rem] h-[22rem] object-contain rounded-4xl" />
                         </div>
                     </FadeContent>
 

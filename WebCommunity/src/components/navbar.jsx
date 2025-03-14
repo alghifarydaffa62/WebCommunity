@@ -27,14 +27,15 @@ const Navbar = () => {
       }`}
     >
       <div className="flex justify-evenly items-center px-6 md:px-12 py-4">
-        <h2 className="text-2xl font-bold text-[#1884FF]">
+        <h2 className="text-2xl font-bold text-[#1884FF] whitespace-nowrap">
           Himit<span className="text-[#0050AA]">Community</span>
         </h2>
 
         <ul className="hidden md:flex gap-10 font-medium text-lg">
-          <li><Link to="/">Beranda</Link></li>
-          <li><Link to="/KomunitasTeknologi">Komunitas Teknologi</Link></li>
-          <li><Link to="/KomunitasOlahraga">Komunitas Olahraga</Link></li>
+          <li className=' hover:text-blue-700'><Link to="/">Beranda</Link></li>
+          <li className=' hover:text-blue-700'><Link to="/KomunitasTeknologi">Komunitas Teknologi</Link></li>
+          <li className=' hover:text-blue-700'><Link to="/KomunitasOlahraga">Komunitas Olahraga</Link></li>
+          <li className=' hover:text-blue-700'><Link to="/Event">Event</Link></li>
         </ul>
 
         <button className="md:hidden text-2xl" onClick={toggleMenu}>
@@ -50,6 +51,7 @@ const Navbar = () => {
         <li><Link to="/" onClick={toggleMenu}>Beranda</Link></li>
         <li><Link to="/KomunitasTeknologi" onClick={toggleMenu}>Komunitas Teknologi</Link></li>
         <li><Link to="/KomunitasOlahraga" onClick={toggleMenu}>Komunitas Olahraga</Link></li>
+        <li><Link to="/Event" onClick={toggleMenu}>Event</Link></li>
       </ul>
     </nav>
   );

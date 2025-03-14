@@ -5,17 +5,20 @@ import Footer from "../footer"
 import FadeContent from '../../AwesomeStyle/FadeContent/FadeContent'
 import AnimatedContent from '../../AwesomeStyle/AnimatedContent/AnimatedContent'
 import isport from '../../assets/i-sport.jpeg'
-import DocumISport from './DocumISport'
 import DocumIsport from './DocumISport'
+import { useEffect } from 'react'
 
 export default function Isport() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <div>
             <Navbar />
 
             <div>
                 <div className='px-8 md:px-[10rem] mt-28'>
-                    <Link to="/KomunitasTeknologi" className="font-poppins font-semibold underline text-blue-900">
+                    <Link to="/KomunitasOlahraga" className="font-poppins font-semibold underline text-blue-900">
                         Kembali ke halaman komunitas
                     </Link>
                 </div>
@@ -23,7 +26,7 @@ export default function Isport() {
                 <div className="flex flex-col md:flex-row justify-center gap-4 lg:gap-16 items-center mt-9 px-6">
                     <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
                         <div>
-                            <img src={isport} alt="Web Developer" className="w-[22rem] h-[22rem] object-contain" />
+                            <img src={isport} alt="Web Developer" className="w-[22rem] h-[22rem] object-contain rounded-4xl" />
                         </div>
                     </FadeContent>
 
@@ -73,7 +76,7 @@ export default function Isport() {
                 </AnimatedContent>
             </div>
 
-            <DocumIsport />
+            <DocumIsport/>
             <Footer />
         </div>
     )

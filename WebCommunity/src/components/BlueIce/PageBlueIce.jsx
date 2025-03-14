@@ -6,8 +6,13 @@ import Footer from '../footer'
 import FadeContent from '../../AwesomeStyle/FadeContent/FadeContent'
 import AnimatedContent from '../../AwesomeStyle/AnimatedContent/AnimatedContent'
 import DocumFutsal from './docum'
+import { useEffect } from 'react'
 
 export default function BlueIce() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+      
     return(
         <div>
             <Navbar/>
