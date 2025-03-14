@@ -8,6 +8,9 @@ import OSC from './components/OSC/PageOSC'
 import GameKita from './components/GameKita/PageGamekita'
 import ShuttleBlue from './components/ShuttleBlue/PageShuttleBlue'
 import BlueIce from './components/BlueIce/PageBlueIce'
+import BlueKnight from './components/BlueKnight/PageBlueKnight'
+import IBall from './components/I-Ball/PageIBall'
+import Isport from './components/I-Sport/PageISport'
 
 function App() {
   return (
@@ -20,8 +23,11 @@ function App() {
           <Route path='/KomunitasTeknologi/Webdev' element={<Webdev/>}/>
           <Route path='/KomunitasTeknologi/OSC' element={<OSC/>}/> 
           <Route path='/KomunitasTeknologi/GameKita' element={<GameKita/>}/> 
-          <Route path='/KomunitasOlahraga/ShuttleBlue' element={<ShuttleBlue/>}/> 
-          <Route path='/KomunitasOlahraga/BlueIce' element={<BlueIce/>}/> 
+          <Route path='/KomunitasOlahraga/BlueIce' element={<BlueIce/>}/>
+          <Route path='/KomunitasOlahraga/BlueKnight' element={<BlueKnight/>}/>
+          <Route path='/KomunitasOlahraga/ShuttleBlue' element={<ShuttleBlue/>}/>
+          <Route path='/KomunitasOlahraga/I-Ball' element={<IBall/>}/>
+          <Route path='/KomunitasOlahraga/I-Sport' element={<Isport/>}/> 
         </Routes>
       </Router>
     </div>
