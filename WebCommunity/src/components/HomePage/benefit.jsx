@@ -7,7 +7,7 @@ import FadeContent from '../../AwesomeStyle/FadeContent/FadeContent'
 
 export default function Manfaat() {
     return(
-        <div className='flex flex-col md:flex-row justify-evenly items-center font-poppins mb-[8rem] px-4 md:px-8'>
+        <div className='flex flex-col md:flex-col lg:flex-row justify-evenly items-center font-poppins mb-[8rem] px-4 md:px-8'>
             <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
                 <div className='max-w-sm text-center md:text-left'>
                     <h2 className='text-3xl md:text-4xl font-semibold text-[#174B86]'>Beberapa manfaat yang akan kamu dapatkan</h2>
@@ -17,7 +17,7 @@ export default function Manfaat() {
 
             <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-y-8 gap-x-6 items-center w-full md:w-auto'>
-                        <div className="motivasi p-6 bg-[#174B86] text-white rounded-xl">
+                        <div className="motivasi p-6 bg-[#174B86] text-white rounded-xl text-left">
                             <img src={dukungan} alt="" className='w-12 h-12 p-2 bg-[#D0DFFE] rounded-md'/>
                             <h4 className='text-lg md:text-xl font-bold mt-1'>Dukungan & Motivasi</h4>
                             <p className='text-justify text-sm font-light mt-2 max-w-[16rem]'>Dalam komunitas, kamu tidak hanya belajar, tetapi juga 
