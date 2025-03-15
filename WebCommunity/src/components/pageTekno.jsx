@@ -1,12 +1,19 @@
 import '../App.css'
 import Navbar from './navbar'
-import { Link } from 'react-router-dom'
 import tekno from '../assets/tekno.png'
 import AnimatedContent from '../AwesomeStyle/AnimatedContent/AnimatedContent'
 import Carousel from './Teknologi/carousel'
 import Community from './Teknologi/community'
+import { useNavigate } from 'react-router-dom'
+
 
 export default function Teknologi() {
+    const navigate = useNavigate()
+
+    const handleScroll = () => {
+        navigate('/KomunitasTeknologi#Jelajahi') 
+    }
+
     return (
         <div>
             <Navbar/>
@@ -30,8 +37,8 @@ export default function Teknologi() {
                                 berbagi wawasan, serta berkolaborasi dalam berbagai kegiatan 
                                 yang berkaitan dengan programming</p>
 
-                            <button className='mt-4 py-3 px-5 align-middle bg-[#1A57A7] rounded-full font-poppins text-white text-semibold'>
-                                <Link to='/'>Jelajahi Komunitas</Link>
+                            <button onClick={handleScroll} className='cursor-pointer mt-4 py-3 px-5 bg-[#1A57A7] rounded-full font-poppins text-white font-semibold text-sm md:text-base transition duration-300 ease-in-out hover:translate-y-[-4px] hover:shadow-lg'>
+                                Jelajahi Komunitas
                             </button>
                         </div>
                         <img src={tekno} alt="" className='w-1/2 md:w-[35vw] h-auto md:h-[65vh]'/>

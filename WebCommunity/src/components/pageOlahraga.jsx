@@ -5,8 +5,19 @@ import OR from '../assets/OR.png'
 import AnimatedContent from '../AwesomeStyle/AnimatedContent/AnimatedContent'
 import Carousel from './Olahraga/carousel'
 import Community from './Olahraga/community'
+import { useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export default function Teknologi() {
+    useEffect(() => {
+            window.scrollTo(0, 0);
+    }, [])
+
+    const navigate = useNavigate()
+
+    const handleScroll = () => {
+        navigate('/KomunitasOlahraga/#Jelajahi') 
+    }
     return (
         <div>
             <Navbar/>
@@ -31,8 +42,8 @@ export default function Teknologi() {
                                 serta berpartisipasi dalam berbagai kegiatan dan kompetisi 
                                 olahraga untuk meningkatkan keterampilan dan sportivitas.</p>
 
-                            <button className='mt-4 py-3 px-5 align-middle bg-[#1A57A7] rounded-full font-poppins text-white text-semibold'>
-                                <Link to='/'>Jelajahi Komunitas</Link>
+                            <button onClick={handleScroll} className='cursor-pointer mt-4 py-3 px-5 bg-[#1A57A7] rounded-full font-poppins text-white font-semibold text-sm md:text-base transition duration-300 ease-in-out hover:translate-y-[-4px] hover:shadow-lg'>
+                                Jelajahi Komunitas
                             </button>
                         </div>
                         <img src={OR} alt="" className='w-1/2 md:w-[35vw] h-auto md:h-[65vh]'/>
