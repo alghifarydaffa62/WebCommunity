@@ -32,10 +32,10 @@ export default function Teknologi() {
                     scale={0.8} 
                     threshold={0.2}
                     >
-                    <div className='flex flex-col-reverse lg:flex-row justify-center items-center gap-[3rem] lg:gap-[6rem] font-poppins h-auto lg:h-[100vh] p-6 mt-8'>
+                    <div className='flex flex-col-reverse lg:flex-row justify-center items-center gap-[3rem] lg:gap-[6rem] font-poppins h-auto lg:h-[100vh] p-6 mt-12 md:mt-18 lg:mt-9'>
                         <div className='text-center lg:text-left'>   
                             <h1 className='text-3xl md:text-5xl font-poppins text-[#174B86] font-bold'>Komunitas Olahraga</h1>
-                            <p className='max-w-md text-justify font-light text-sm mt-3'>Wadah bagi 
+                            <p className='max-w-md md:min-w-lg font-light text-sm mt-3 text-center lg:text-left'>Wadah bagi 
                                 mahasiswa yang ingin mengeksplorasi dan berkembang 
                                 di dunia olahraga. Di sini, kamu bisa bertemu dengan 
                                 orang-orang yang memiliki minat yang sama, berlatih bersama, 
@@ -46,7 +46,7 @@ export default function Teknologi() {
                                 Jelajahi Komunitas
                             </button>
                         </div>
-                        <img src={OR} alt="" className='w-1/2 md:w-[35vw] h-auto md:h-[65vh]'/>
+                        <img src={OR} alt="" className='w-3/4 md:w-1/2 lg:w-[35vw] max-w-[300px] md:max-w-[400px] lg:max-w-none h-auto'/>
                     </div>
             </AnimatedContent>
             
