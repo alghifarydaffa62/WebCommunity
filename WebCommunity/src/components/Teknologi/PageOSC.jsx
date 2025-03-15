@@ -1,54 +1,55 @@
-import '../../App.css'
-import { Link } from 'react-router-dom'
-import Navbar from '../navbar'
+import "../../App.css"
+import Navbar from "../navbar"
+import { Link } from "react-router-dom"
+import osc from '../../assets/OSC (1).jpg'
 import Footer from "../footer"
 import FadeContent from '../../AwesomeStyle/FadeContent/FadeContent'
 import AnimatedContent from '../../AwesomeStyle/AnimatedContent/AnimatedContent'
-import Gamekita from '../../assets/gamekita.jpg'
-import DocumGame from './DocumGame'
-import { useEffect } from 'react'
+import osc1 from '../../assets/osc1.jpg'
+import osc2 from '../../assets/osc2.jpg'
+import osc3 from '../../assets/osc3.jpg'
+import osc4 from '../../assets/osc4.png'
+import { useEffect } from "react"
+import Dokumentasi from "../Dokumentasi"
 
-export default function GameKita() {
+const images = [osc1, osc2, osc3, osc4]
+
+export default function OSC() {
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
     return(
         <div>
             <Navbar/>
-            
+
             <div>
                 <div className='px-8 md:px-[10rem] mt-28'>
                     <Link to="/KomunitasTeknologi" className="font-poppins font-semibold underline text-blue-900">
                         Kembali ke halaman komunitas
                     </Link>
                 </div>
-                
-                <div className="flex flex-col md:flex-row justify-center gap-4 lg:gap-16 items-center mt-9 px-6">
-                    <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
-                        <div>
-                            <img src={Gamekita} alt="Web Developer" className="w-[22rem] h-[22rem] object-contain rounded-4xl" />
-                        </div>
-                    </FadeContent>
 
-                    <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
+                <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
+                    <div className="flex flex-col md:flex-row justify-center gap-4 lg:gap-16 items-center mt-9 px-6">
+                        <img src={osc} alt="Web Developer" className="w-[20rem] h-[20rem] object-contain" />
+                
                         <div className="max-w-md text-center md:text-left">
                             <div className="mb-6 space-y-3">
                                 <h1 className="text-4xl font-poppins text-[#174B86] font-bold">
-                                    GameKita
+                                    Open Source Community
                                 </h1>
-                                <p className="text-justify text-gray-700">
-                                GameKita adalah komunitas bagi para mahasiswa yang tertarik dengan 
-                                dunia pengembangan game. Di sini, anggota dapat belajar, berbagi, dan 
-                                berkolaborasi dalam menciptakan game, mulai dari konsep hingga 
-                                implementasi. Komunitas ini juga menjadi wadah untuk mengeksplorasi 
-                                teknologi, tren, dan inovasi terbaru dalam industri game development.
+                                <p className="text-justify text-gray-700 max-w-md">
+                                Wadah bagi mahasiswa yang tertarik dengan dunia open 
+                                source dan keamanan siber. Di komunitas ini, kamu bisa 
+                                berdiskusi, berbagi ilmu, dan mengeksplorasi berbagai 
+                                aspek teknologi, termasuk cybersecurity dan CTF (Capture The Flag).
                                 </p>
                             </div>
-
+                
                             <div className="space-y-3">
                                 <h3 className="text-lg font-bold text-[#174B86]">Topik Pembahasan:</h3>
-                                <div className="flex flex-wrap justify-center md:justify-start gap-3">
-                                    {["Pembuatan Game", "Pemrograman Game", "3d Design"].map(topic => (
+                                <div className="flex flex-wrap justify-center md:justify-start gap-2">
+                                    {["Cyber Security", "CTF", "Linux", "Computer Networking"].map(topic => (
                                             <span key={topic} className="text-sm py-2 px-4 bg-[#1A57A7] rounded-full text-white">
                                                 {topic}
                                             </span>
@@ -56,9 +57,9 @@ export default function GameKita() {
                                 </div>
                             </div>
                         </div>
-                    </FadeContent>
-                </div>
-
+                    </div>
+                </FadeContent>
+                
                 <AnimatedContent
                     distance={50}
                     direction="vertical"
@@ -76,8 +77,8 @@ export default function GameKita() {
                     </div>
                 </AnimatedContent>
             </div>
-            
-            <DocumGame/>
+
+            <Dokumentasi dokum={images}/>
             <Footer/>
         </div>
     )

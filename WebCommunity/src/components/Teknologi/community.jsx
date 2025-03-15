@@ -5,16 +5,33 @@ import linux from '../../assets/linux.png'
 import { Link } from 'react-router-dom'
 import Footer from '../footer'
 import { useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 
 export default function Community() {
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
 
+    const location = useLocation();
+
+      useEffect(() => {
+          const hash = location.hash;
+          if (hash) {
+              const element = document.getElementById(hash.replace('#', ''));
+              if (element) {
+                element.scrollIntoView({ behavior: 'smooth'});
+
+                setTimeout(() => {
+                    window.scrollBy(150, 0); 
+                }, 300);
+              }
+          }
+      }, [location]);
+
     return(
         <div>
             <div className='flex flex-wrap justify-center items-center gap-6 md:gap-[3rem] font-poppins text-white my-10 px-6'>
-                <div className='bg-[#174B86] p-5 h-auto md:h-[36vh] w-full md:w-[24vw] rounded-md flex flex-col gap-3 items-center md:items-start'>
+                <div id='Jelajahi' className='bg-[#174B86] p-5 h-auto md:h-[36vh] w-full md:w-[24vw] rounded-md flex flex-col gap-3 items-center md:items-start'>
                     <img src={game} alt="" className='w-[17vw] md:w-[4vw] h-[8vh] p-3 bg-[#182E66] rounded-md'/>
                     <h1 className='font-bold text-xl'>GameKita</h1>
                     <p className='font-light text-center md:text-left'>Komunitas yang berfokus pada<br/>pembuatan sebuah game</p>

@@ -9,7 +9,7 @@ export default function Footer() {
                     <h1 className="font-bold text-3xl mb-4">HimitCommunity</h1>
                     <p>
                         HimitCommunity adalah web berisi informasi seluruh komunitas yang ada
-                        di Himpunan Mahasiswa Teknik Informatika PENS atau HIMIT.
+                        di Himpunan Mahasiswa Teknik Informatika dan Sains Data PENS atau HIMIT.
                     </p>
                 </div>
 
