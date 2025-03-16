@@ -31,7 +31,7 @@ const Navbar = () => {
           Himit<span className="text-[#0050AA]">Community</span>
         </h2>
 
-        <ul className="hidden md:flex gap-8 lg:gap-14 font-medium text-lg">
+        <ul className="hidden md:flex gap-6 md:gap-6 lg:gap-14 font-medium text-lg">
           <li className=' hover:text-blue-700'><Link to="/">Beranda</Link></li>
           <li className=' hover:text-blue-700'><Link to="/KomunitasTeknologi">Komunitas Teknologi</Link></li>
           <li className=' hover:text-blue-700'><Link to="/KomunitasOlahraga">Komunitas Olahraga</Link></li>

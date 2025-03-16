@@ -27,7 +27,7 @@ export default function IBall() {
                     </Link>
                 </div>
 
-                <div className="flex flex-col md:flex-row justify-center gap-4 lg:gap-16 items-center mt-9 px-6">
+                <div className="flex flex-col md:flex-col lg:flex-row justify-center gap-4 lg:gap-16 items-center mt-9 px-6">
                     <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
                         <div>
                             <img src={ball2} alt="I-Ball" className="w-[22rem] h-[22rem] object-cover rounded-lg" />
@@ -37,7 +37,7 @@ export default function IBall() {
                     <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
                         <div className="max-w-md text-center md:text-left">
                             <div className="mb-6 space-y-3">
-                                <h1 className="text-4xl font-poppins text-[#174B86] font-bold">
+                                <h1 className="text-4xl font-poppins text-[#174B86] font-bold md:text-center">
                                     I - Ball
                                 </h1>
                                 <p className="text-justify text-gray-700">
