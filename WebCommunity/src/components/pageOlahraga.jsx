@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import OR from '../assets/OR.png'
 import AnimatedContent from '../AwesomeStyle/AnimatedContent/AnimatedContent'
 import Carousel from './Olahraga/carousel'
-import Community from './Olahraga/community'
+import Community from './Olahraga/ORcommunity'
 import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 

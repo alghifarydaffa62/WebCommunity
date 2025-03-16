@@ -20,9 +20,9 @@ export default function Beranda() {
     }
 
     return (
-        <div>
+        <div className='overflow-x-hidden'>
             <Navbar/>
-            <div className='h-screen md:h-[60vh] lg:h-screen flex flex-col justify-center items-center text-center px-6 md:px-12 lg:px-20'>
+            <div className='h-screen md:h-[60vh] lg:h-screen flex flex-col justify-center items-center text-center px-6 md:px-12 lg:px-20 md:mt-16'>
                 <AnimatedContent
                     distance={50}
                     direction="vertical"
@@ -54,7 +54,7 @@ export default function Beranda() {
                             HIMIT menghadirkan berbagai komunitas untuk mendukung pengembangan keterampilan, 
                             inovasi, dan kolaborasi mahasiswa Teknik Informatika dan Sains Data. Temukan komunitas yang 
                             sesuai dengan minatmu dan jadilah bagian dari perubahan!</p>
-                        <button onClick={handleScroll} className='mt-4 py-3 px-5 bg-[#1A57A7] rounded-full font-poppins text-white font-semibold text-sm md:text-lg lg:text-xl transition duration-300 ease-in-out hover:translate-y-[-4px] hover:shadow-lg'>
+                        <button onClick={handleScroll} className='cursor-pointer mt-4 py-3 px-5 bg-[#1A57A7] rounded-full font-poppins text-white font-semibold text-sm md:text-lg lg:text-xl transition duration-300 ease-in-out hover:translate-y-[-4px] hover:shadow-lg'>
                             Jelajahi Komunitas
                         </button>
                     </div>

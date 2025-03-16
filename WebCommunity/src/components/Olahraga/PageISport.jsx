@@ -39,7 +39,7 @@ export default function Isport() {
                     <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
                         <div className="max-w-md text-center md:text-left">
                             <div className="mb-6 space-y-3">
-                                <h1 className="text-4xl font-poppins text-[#174B86] font-bold md:text-center">
+                                <h1 className="text-4xl font-poppins text-[#174B86] font-bold text-center md:text-center lg:text-left">
                                     I-Sport
                                 </h1>
                                 <p className="text-justify text-gray-700">
@@ -75,7 +75,7 @@ export default function Isport() {
                     threshold={0.2}
                 >
                     <div className="flex justify-center mt-8 md:mt-10">
-                        <Link to="https://www.google.com/url?q=https://chat.whatsapp.com/IrTPp1vGFecDQLr2YiOuz2&sa=D&source=editors&ust=1742045142759955&usg=AOvVaw3Y2ObFniLnMrVz8TJGPRHg" target='_blank' className="py-3 px-6 bg-emerald-500 rounded-full text-white font-semibold shadow-md hover:bg-emerald-600 transition">
+                        <Link to="https://chat.whatsapp.com/IrTPp1vGFecDQLr2YiOuz2" target='_blank' className="py-3 px-6 bg-emerald-500 rounded-full text-white font-semibold shadow-md hover:bg-emerald-600 transition">
                             Gabung dengan komunitas
                         </Link>
                     </div>

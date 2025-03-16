@@ -1,39 +1,17 @@
 import '../../App.css'
 import Stack from '../../AwesomeStyle/Stack/Stack'
-import teknostack1 from '../../assets/teknoOverview.jpeg'
-import teknostack2 from '../../assets/teknoOverview2.jpg'
-import teknostack3 from '../../assets/teknoOverview3.jpeg'
-import teknostack4 from '../../assets/teknoOverview4.jpg'
+
+import teknostack from '../../assets/teknoOverview2.jpg'
 import ORoverview from '../../assets/ORoverview.jpeg'
-import ORoverview2 from '../../assets/ORoverview2.jpeg'
-import ORoverview3 from '../../assets/ORoverview3.jpeg'
 import FadeContent from '../../AwesomeStyle/FadeContent/FadeContent'
 
 export default function Overview() {
-    const images = [
-        { id: 1, img: teknostack1 },
-        { id: 2, img: teknostack2 },
-        { id: 3, img: teknostack3  },
-        { id: 4, img: teknostack4 }
-      ];
-
-    const images2 = [
-        { id: 1, img: ORoverview},
-        { id: 2, img: ORoverview2},
-        { id: 3, img: ORoverview3}
-    ]
 
     return(
         <div className='bg-[#182E66] py-[5rem] font-poppins'>
             <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
                 <div className='flex flex-col md:flex-col lg:flex-row justify-center items-center gap-[3rem] text-center md:text-center lg:text-left'>
-                    <Stack
-                        randomRotation={true}
-                        sensitivity={180}
-                        sendToBackOnClick={false}
-                        cardDimensions={{ width: 370, height: 300 }}
-                        cardsData={images}
-                        />
+                    <img src={teknostack} alt="" className='w-[60vw] h-[30vh] md:w-[60vw] md:h-[40vh] lg:w-[45vw] lg:h-[70vh] object-cover rounded-lg'/>
                     <div>
                         <h2 className='text-xl md:text-3xl lg:text-4xl font-bold text-white max-w-lg'>BERGABUNG & KEMBANGKAN POTENSIMU DI KOMUNITAS!</h2>
                         <p className='text-white font-light mt-2 text-sm lg:text-lg'>Tempat terbaik untuk mengasah keterampilan,<br/>membangun 
@@ -49,13 +27,7 @@ export default function Overview() {
                         <p className='text-white font-light mt-2 text-sm lg:text-lg'>Tempat terbaik untuk mengasah keterampilan,<br/>membangun 
                             relasi, dan berkembang bersama.</p>
                     </div>
-                    <Stack
-                        randomRotation={true}
-                        sensitivity={180}
-                        sendToBackOnClick={false}
-                        cardDimensions={{ width: 340, height: 300 }}
-                        cardsData={images2}
-                        />
+                    <img src={ORoverview} alt="" className='w-[60vw] h-[30vh] md:w-[60vw] md:h-[40vh] lg:w-[45vw] lg:h-[70vh] object-cover rounded-lg'/>
                 </div>
             </FadeContent>
         </div>

@@ -35,7 +35,7 @@ export default function OSC() {
                 
                         <div className="max-w-md text-center md:text-left">
                             <div className="mb-6 space-y-3">
-                                <h1 className="text-4xl font-poppins text-[#174B86] font-bold md:text-center">
+                                <h1 className="text-4xl font-poppins text-[#174B86] font-bold text-center md:text-center lg:text-left">
                                     Open Source Community
                                 </h1>
                                 <p className="text-justify text-gray-700 max-w-md">

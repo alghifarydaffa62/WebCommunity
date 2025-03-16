@@ -39,7 +39,7 @@ export default function GameKita() {
                     <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
                         <div className="max-w-md text-center md:text-left">
                             <div className="mb-6 space-y-3">
-                                <h1 className="text-4xl font-poppins text-[#174B86] font-bold md:text-center">
+                                <h1 className="text-4xl font-poppins text-[#174B86] font-bold text-center md:text-center lg:text-left">
                                     GameKita
                                 </h1>
                                 <p className="text-justify text-gray-700">
