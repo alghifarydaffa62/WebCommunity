@@ -30,12 +30,12 @@ export default function OSC() {
                 </div>
 
                 <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
-                    <div className="flex flex-col md:flex-row justify-center gap-4 lg:gap-16 items-center mt-9 px-6">
+                    <div className="flex flex-col md:flex-col lg:flex-row justify-center gap-4 lg:gap-16 items-center mt-9 px-6">
                         <img src={osc} alt="Web Developer" className="w-[20rem] h-[20rem] object-contain" />
                 
                         <div className="max-w-md text-center md:text-left">
                             <div className="mb-6 space-y-3">
-                                <h1 className="text-4xl font-poppins text-[#174B86] font-bold">
+                                <h1 className="text-4xl font-poppins text-[#174B86] font-bold md:text-center">
                                     Open Source Community
                                 </h1>
                                 <p className="text-justify text-gray-700 max-w-md">
@@ -71,7 +71,7 @@ export default function OSC() {
                     threshold={0.2}
                     >
                     <div className="flex justify-center mt-8 md:mt-10">
-                        <Link to="/" className="py-3 px-6 bg-emerald-500 rounded-full text-white font-semibold shadow-md hover:bg-emerald-600 transition">
+                        <Link to="https://chat.whatsapp.com/HcMTArmpmzqLNYv0ubo2WE" target="_blank" className="py-3 px-6 bg-emerald-500 rounded-full text-white font-semibold shadow-md hover:bg-emerald-600 transition">
                             Gabung dengan komunitas
                         </Link>
                     </div>
