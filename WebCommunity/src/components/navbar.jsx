@@ -28,7 +28,7 @@ const Navbar = () => {
     >
       <div className="flex justify-evenly gap-4 md:gap-13 lg:gap-10 items-center px-6 md:px-12 lg:px-24 py-4">
         <h2 className="text-2xl md:text-3xl font-bold text-[#1884FF] whitespace-nowrap">
-          Himit<span className="text-[#0050AA]">Community</span>
+          <Link to='/'>Himit<span className="text-[#0050AA]">Community</span></Link>
         </h2>
 
         <ul className="hidden md:flex gap-6 md:gap-6 lg:gap-14 font-medium text-lg">

@@ -28,33 +28,33 @@ export default function Community() {
 
     return(
         <div>
-            <div id='Jelajahi' className='flex flex-wrap justify-center items-center gap-6 md:gap-[3rem] font-poppins text-white my-10 px-6'>
-                <div className='bg-[#174B86] p-5 h-auto md:h-[20vh] lg:h-[36vh] w-full md:w-[40vw] lg:w-[24vw] rounded-md flex flex-col gap-3 items-center md:items-start'>
-                    <img src={futsal} alt="" className='w-[17vw] h-[8vh] lg:w-[4vw] lg:h-[10vh] md:w-[8vw] md:h-[5vh] p-3 bg-[#182E66] rounded-md'/>
+            <div id='Jelajahi' className='flex flex-wrap justify-center items-center gap-6 md:gap-12 font-poppins text-white my-10 px-6'>
+                <div className='bg-[#174B86] p-5 w-full max-w-md md:max-w-sm lg:max-w-xs rounded-md flex flex-col gap-3 items-center md:items-start'>
+                    <img src={futsal} alt=""  className='w-20 h-20 md:w-16 md:h-16 lg:w-12 lg:h-12 p-3 bg-[#182E66] rounded-md object-contain'/>
                     <h1 className='font-bold text-xl'>Blue Ice</h1>
                     <p className='font-light text-center md:text-left'>Komunitas yang berfokus pada olahraga futsal</p>
                     <Link to='/KomunitasOlahraga/BlueIce' className='font-semibold'>Lihat Selengkapnya</Link>
                 </div>
-                <div className='bg-[#174B86] p-5 h-auto md:h-[20vh] lg:h-[36vh] w-full md:w-[40vw] lg:w-[24vw] rounded-md flex flex-col gap-3 items-center md:items-start'>
-                    <img src={volley} alt="" className='w-[17vw] h-[8vh] lg:w-[4vw] lg:h-[10vh] md:w-[8vw] md:h-[5vh] p-3 bg-[#182E66] rounded-md' />
+                <div className='bg-[#174B86] p-5 w-full max-w-md md:max-w-sm lg:max-w-xs rounded-md flex flex-col gap-3 items-center md:items-start'>
+                    <img src={volley} alt=""  className='w-20 h-20 md:w-16 md:h-16 lg:w-12 lg:h-12 p-3 bg-[#182E66] rounded-md object-contain' />
                     <h1 className='font-bold text-xl'>Blue Knight</h1>
                     <p className='font-light text-center md:text-left'>Komunitas yang berfokus pada olahraga volly</p>
                     <Link to='/KomunitasOlahraga/BlueKnight' className='font-semibold'>Lihat Selengkapnya</Link>
                 </div>
-                <div className='bg-[#174B86] p-5 h-auto md:h-[20vh] lg:h-[36vh] w-full md:w-[40vw] lg:w-[24vw] rounded-md flex flex-col gap-3 items-center md:items-start'>
-                    <img src={shuttle} alt="" className='w-[17vw] h-[8vh] lg:w-[4vw] lg:h-[10vh] md:w-[8vw] md:h-[5vh] p-3 bg-[#182E66] rounded-md'/>
+                <div className='bg-[#174B86] p-5 w-full max-w-md md:max-w-sm lg:max-w-xs rounded-md flex flex-col gap-3 items-center md:items-start'>
+                    <img src={shuttle} alt=""  className='w-20 h-20 md:w-16 md:h-16 lg:w-12 lg:h-12 p-3 bg-[#182E66] rounded-md object-contain'/>
                     <h1 className='font-bold text-lg'>Shuttle Blue</h1>
                     <p className='font-light text-center md:text-left'>Komunitas yang berfokus pada olahraga badminton</p>
                     <Link to='/KomunitasOlahraga/ShuttleBlue' className='font-semibold'>Lihat Selengkapnya</Link>
                 </div>
-                <div className='bg-[#174B86] p-5 h-auto md:h-[20vh] lg:h-[36vh] w-full md:w-[40vw] lg:w-[24vw] rounded-md flex flex-col gap-3 items-center md:items-start'>
-                    <img src={iball} alt="" className='w-[17vw] h-[8vh] lg:w-[4vw] lg:h-[10vh] md:w-[8vw] md:h-[5vh] p-3 bg-[#182E66] rounded-md'/>
+                <div className='bg-[#174B86] p-5 w-full max-w-md md:max-w-sm lg:max-w-xs rounded-md flex flex-col gap-3 items-center md:items-start'>
+                    <img src={iball} alt=""  className='w-20 h-20 md:w-16 md:h-16 lg:w-12 lg:h-12 p-3 bg-[#182E66] rounded-md object-contain'/>
                     <h1 className='font-bold text-lg'>I-Ball</h1>
                     <p className='font-light text-center md:text-left'>Komunitas yang membahas olahraga basket</p>
                     <Link to='/KomunitasOlahraga/I-Ball' className='font-semibold'>Lihat Selengkapnya</Link>
                 </div>
-                <div className='bg-[#174B86] p-5 h-auto md:h-[20vh] lg:h-[36vh] w-full md:w-[40vw] lg:w-[24vw] rounded-md flex flex-col gap-3 items-center md:items-start'>
-                    <img src={isport} alt="" className='w-[17vw] h-[8vh] lg:w-[4vw] lg:h-[10vh] md:w-[8vw] md:h-[5vh] p-3 bg-[#182E66] rounded-md'/>
+                <div className='bg-[#174B86] p-5 w-full max-w-md md:max-w-sm lg:max-w-xs rounded-md flex flex-col gap-3 items-center md:items-start'>
+                    <img src={isport} alt="" className='w-20 h-20 md:w-16 md:h-16 lg:w-12 lg:h-12 p-3 bg-[#182E66] rounded-md object-contain'/>
                     <h1 className='font-bold text-lg'>I-Sport</h1>
                     <p className='font-light text-center md:text-left'>Komunitas yang berfokus pada permainan E-sport</p>
                     <Link to='/KomunitasOlahraga/I-Sport' className='font-semibold'>Lihat Selengkapnya</Link>
@@ -62,6 +62,5 @@ export default function Community() {
             </div>
             <Footer/>
         </div>
-        
     )
 }
