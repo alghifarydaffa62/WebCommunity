@@ -46,7 +46,7 @@ export default function BlueIce() {
                                 Blue Ice merupakan komunitas olahraga futsal 
                                 yang menjadi tempat bagi mahasiswa untuk mengasah 
                                 keterampilan, meningkatkan teamwork, serta berpartisipasi 
-                                dalam pertandingan seru-seru an dan kegiatan futsal lainnya.
+                                dalam pertandingan seru-seruan (Fun Match) dan kegiatan futsal lainnya.
                                 </p>
                             </div>
 

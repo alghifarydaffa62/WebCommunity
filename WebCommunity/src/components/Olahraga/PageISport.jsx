@@ -8,7 +8,7 @@ import isp1 from '../../assets/Isport1.jpeg'
 import isp2 from '../../assets/Isport2.jpeg'
 import isp3 from '../../assets/Isport3.jpeg'
 import isp4 from '../../assets/Isport4.jpeg'
-import isport from '../../assets/i-sport.jpeg'
+import isport from '../../assets/i-sport.png'
 import { useEffect } from 'react'
 import Dokumentasi from '../Dokumentasi'
 

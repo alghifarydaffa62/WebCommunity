@@ -11,7 +11,7 @@ export default function Overview() {
         <div className='bg-[#182E66] py-[5rem] font-poppins'>
             <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
                 <div className='flex flex-col md:flex-col lg:flex-row justify-center items-center gap-[3rem] text-center md:text-center lg:text-left'>
-                    <img src={teknostack} alt="" className='w-[60vw] h-[30vh] md:w-[60vw] md:h-[40vh] lg:w-[45vw] lg:h-[70vh] object-cover rounded-lg'/>
+                    <img src={teknostack} alt="" className='w-[60vw] h-[30vh] md:w-[60vw] md:h-[40vh] lg:w-[45vw] lg:h-[60vh] object-cover rounded-lg'/>
                     <div>
                         <h2 className='text-xl md:text-3xl lg:text-4xl font-bold text-white max-w-lg'>BERGABUNG & KEMBANGKAN POTENSIMU DI KOMUNITAS!</h2>
                         <p className='text-white font-light mt-2 text-sm lg:text-lg'>Tempat terbaik untuk mengasah keterampilan,<br/>membangun 
@@ -27,7 +27,7 @@ export default function Overview() {
                         <p className='text-white font-light mt-2 text-sm lg:text-lg'>Tempat terbaik untuk mengasah keterampilan,<br/>membangun 
                             relasi, dan berkembang bersama.</p>
                     </div>
-                    <img src={ORoverview} alt="" className='w-[60vw] h-[30vh] md:w-[60vw] md:h-[40vh] lg:w-[45vw] lg:h-[70vh] object-cover rounded-lg'/>
+                    <img src={ORoverview} alt="" className='w-[60vw] h-[30vh] md:w-[60vw] md:h-[40vh] lg:w-[45vw] lg:h-[60vh] object-cover rounded-lg'/>
                 </div>
             </FadeContent>
         </div>
