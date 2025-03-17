@@ -50,7 +50,7 @@ export default function Community() {
                 <div className='bg-[#174B86] p-5 w-full max-w-md md:max-w-sm lg:max-w-xs rounded-md flex flex-col gap-3 items-center md:items-start'>
                     <img src={iball} alt=""  className='w-20 h-20 md:w-16 md:h-16 lg:w-12 lg:h-12 p-3 bg-[#182E66] rounded-md object-contain'/>
                     <h1 className='font-bold text-lg'>I-Ball</h1>
-                    <p className='font-light text-center md:text-left'>Komunitas yang membahas olahraga basket</p>
+                    <p className='font-light text-center md:text-left'>Komunitas yang berfokus pada olahraga basket</p>
                     <Link to='/KomunitasOlahraga/I-Ball' className='font-semibold'>Lihat Selengkapnya</Link>
                 </div>
                 <div className='bg-[#174B86] p-5 w-full max-w-md md:max-w-sm lg:max-w-xs rounded-md flex flex-col gap-3 items-center md:items-start'>
